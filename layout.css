@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+}
+
+header, 
+nav, 
+main, 
+footer {
+	border: 1px solid black;
+	box-sizing: border-box;
+}
+
+header {
+	height: 20vh;
+	background: yellow;
+}
+
+nav {
+	min-height: 60vh;
+	width: 20%;
+	background: green;
+	float: left;
+}
+
+main {
+	min-height: 60vh;
+	width: 80%;
+	background: orange;
+	float: right;
+}
+
+footer {
+	height: 20vh;
+	background-color: indianred;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+img {
+	width: 100%;
+}
+
+figure {
+	border: 1px solid black;
+	width: 20%;
+	float: left;
+	margin: 0;
+	box-sizing: border-box;
+	padding: 20px;
+}
+

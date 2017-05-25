@@ -1,0 +1,46 @@
+/*.main {
+	border: 1px solid black;
+	box-sizing: border-box;
+}*/
+
+.first {
+	border: 5px solid black;
+	box-sizing: border-box;
+	background-color: black;
+	position: absolute;
+	width: 700px;
+	min-height: 50%
+	padding: 10px;
+}
+
+.box1, 
+.box2, 
+.box3, 
+.box4, 
+.box5, 
+.box6, 
+.box7, 
+.box8	{
+	width: 150px;
+	height: 150px;
+	background-color: gray;
+	margin: 10px;
+	float: right;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.second {
+	border: 5px solid black;
+	box-sizing: border-box;
+	background-color: black;
+	position: absolute;
+	width: 700px;
+	min-height: 50%
+	padding: 10px;
+
+}

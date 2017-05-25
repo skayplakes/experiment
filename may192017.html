@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOX DEMO</title>
+	<style type="text/css">
+
+		.title {
+			width: 1000px;
+			height: 500px;
+		    border: 3px solid black;
+		    position: relative;
+		    background-color: white;
+			margin: 200px auto;
+		}
+
+		.title2 {
+			width: 700px;
+			height: 200px;
+		    border: 1px solid black;
+		/*    position: relative;*/
+		    background-color: black;
+		/*	margin: 150px auto;*/
+			position: absolute;
+		    left: 50%;
+		    top: 50%;
+		    transform: translate(-50%,-50%);
+		}
+		
+		.heading {
+			width: 400px;
+			height: 100px;
+		    border: 1px solid black;
+		    position: absolute;
+		    left: 50%;
+		    top: 50%;
+		    transform: translate(-50%,-50%);
+		    background-color: white;
+		}
+
+		.box1 img[alt="redcircle"] {
+			position: absolute;
+			bottom: 0px;
+			right: 0px;
+
+		}
+
+		.box1 img[alt="square"] {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+		}
+
+		.box3 mark {
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%, -50%);
+			text-align: center;
+			background-color: green;
+			color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="title">
+		<div class="title2">
+			<div class="heading">
+			<div class="box1">
+				<img width="50px" height="50px" src="../images/redcircle.jpg" alt="redcircle">
+				<img width="50px" height="50px" src="../images/square.jpg" alt="square">
+			</div>
+
+			<div class="box3">
+				<mark>Summer in Paradise</mark>
+			</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
